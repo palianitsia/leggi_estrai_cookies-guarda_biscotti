@@ -1,0 +1,50 @@
+{
+  "extensionName": {
+    "message": "Get Cookies"
+  },
+  "extensionDescription": {
+    "message": "Витягуйте cookies, localStorage та sessionStorage з будь-якого веб-сайту"
+  },
+  "tabCookies": {
+    "message": "🍪 Cookies"
+  },
+  "tabLocalStorage": {
+    "message": "💾 LocalStorage"
+  },
+  "tabSessionStorage": {
+    "message": "📦 SessionStorage"
+  },
+  "tabAll": {
+    "message": "📋 Все"
+  },
+  "refresh": {
+    "message": "Оновити"
+  },
+  "copy": {
+    "message": "Копіювати"
+  },
+  "export": {
+    "message": "Експорт"
+  },
+  "search": {
+    "message": "Пошук..."
+  },
+  "noData": {
+    "message": "Дані не знайдено"
+  },
+  "loading": {
+    "message": "Завантаження даних..."
+  },
+  "success": {
+    "message": "Успіх!"
+  },
+  "error": {
+    "message": "Помилка"
+  },
+  "copied": {
+    "message": "Скопійовано в буфер обміну!"
+  },
+  "exported": {
+    "message": "Дані експортовано!"
+  }
+}

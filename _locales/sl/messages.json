@@ -1,0 +1,50 @@
+{
+  "extensionName": {
+    "message": "Get Cookies"
+  },
+  "extensionDescription": {
+    "message": "Pridobite piškotke, localStorage in sessionStorage s katere koli spletne strani"
+  },
+  "tabCookies": {
+    "message": "🍪 Piškotki"
+  },
+  "tabLocalStorage": {
+    "message": "💾 LocalStorage"
+  },
+  "tabSessionStorage": {
+    "message": "📦 SessionStorage"
+  },
+  "tabAll": {
+    "message": "📋 Vse"
+  },
+  "refresh": {
+    "message": "Osveži"
+  },
+  "copy": {
+    "message": "Kopiraj"
+  },
+  "export": {
+    "message": "Izvozi"
+  },
+  "search": {
+    "message": "Išči..."
+  },
+  "noData": {
+    "message": "Ni najdenih podatkov"
+  },
+  "loading": {
+    "message": "Nalaganje podatkov..."
+  },
+  "success": {
+    "message": "Uspešno!"
+  },
+  "error": {
+    "message": "Napaka"
+  },
+  "copied": {
+    "message": "Kopirano v odložišče!"
+  },
+  "exported": {
+    "message": "Podatki izvoženi!"
+  }
+}

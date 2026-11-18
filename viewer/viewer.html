@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="viewer.css">
+</head>
+<body>
+  <div class="viewer-container">
+    <div class="viewer-header">
+      <h1 id="viewerTitle">Data Viewer</h1>
+      <button id="closeBtn" class="close-btn">✕</button>
+    </div>
+    <div class="viewer-toolbar">
+      <button id="copyBtn" class="btn btn-primary">📋 Copy JSON</button>
+      <button id="exportBtn" class="btn btn-secondary">💾 Export</button>
+    </div>
+    <div class="viewer-content">
+      <pre id="dataDisplay" class="data-display"></pre>
+    </div>
+    <div class="viewer-footer">
+      <span id="dataInfo"></span>
+    </div>
+  </div>
+  <script src="viewer.js"></script>
+</body>
+</html>

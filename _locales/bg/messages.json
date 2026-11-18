@@ -1,0 +1,50 @@
+{
+  "extensionName": {
+    "message": "Get Cookies"
+  },
+  "extensionDescription": {
+    "message": "Извличайте бисквитки, localStorage и sessionStorage от всеки уебсайт"
+  },
+  "tabCookies": {
+    "message": "🍪 Бисквитки"
+  },
+  "tabLocalStorage": {
+    "message": "💾 LocalStorage"
+  },
+  "tabSessionStorage": {
+    "message": "📦 SessionStorage"
+  },
+  "tabAll": {
+    "message": "📋 Всичко"
+  },
+  "refresh": {
+    "message": "Обнови"
+  },
+  "copy": {
+    "message": "Копирай"
+  },
+  "export": {
+    "message": "Експорт"
+  },
+  "search": {
+    "message": "Търсене..."
+  },
+  "noData": {
+    "message": "Няма намерени данни"
+  },
+  "loading": {
+    "message": "Зареждане на данни..."
+  },
+  "success": {
+    "message": "Успех!"
+  },
+  "error": {
+    "message": "Грешка"
+  },
+  "copied": {
+    "message": "Копирано в клипборда!"
+  },
+  "exported": {
+    "message": "Данните са експортирани!"
+  }
+}

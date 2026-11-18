@@ -1,0 +1,50 @@
+{
+  "extensionName": {
+    "message": "Get Cookies"
+  },
+  "extensionDescription": {
+    "message": "Extract cookies, localStorage and sessionStorage from any website"
+  },
+  "tabCookies": {
+    "message": "🍪 Cookies"
+  },
+  "tabLocalStorage": {
+    "message": "💾 LocalStorage"
+  },
+  "tabSessionStorage": {
+    "message": "📦 SessionStorage"
+  },
+  "tabAll": {
+    "message": "📋 All"
+  },
+  "refresh": {
+    "message": "Refresh"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "export": {
+    "message": "Export"
+  },
+  "search": {
+    "message": "Search..."
+  },
+  "noData": {
+    "message": "No data found"
+  },
+  "loading": {
+    "message": "Loading data..."
+  },
+  "success": {
+    "message": "Success!"
+  },
+  "error": {
+    "message": "Error"
+  },
+  "copied": {
+    "message": "Copied to clipboard!"
+  },
+  "exported": {
+    "message": "Data exported!"
+  }
+}

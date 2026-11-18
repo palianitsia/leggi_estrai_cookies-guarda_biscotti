@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 id="title">Get Cookies</h1>
+      <div class="header-controls">
+        <select id="languageSelect" class="language-select">
+          <option value="en">🇬🇧 EN</option>
+          <option value="it">🇮🇹 IT</option>
+          <option value="es">🇪🇸 ES</option>
+          <option value="fr">🇫🇷 FR</option>
+          <option value="de">🇩🇪 DE</option>
+          <option value="pl">🇵🇱 PL</option>
+          <option value="uk">🇺🇦 UK</option>
+          <option value="ro">🇷🇴 RO</option>
+          <option value="bg">🇧🇬 BG</option>
+          <option value="sl">🇸🇮 SL</option>
+          <option value="pt">🇵🇹 PT</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="tabs">
+      <button class="tab-button active" data-tab="cookies">🍪 Cookies</button>
+      <button class="tab-button" data-tab="localStorage">💾 LocalStorage</button>
+      <button class="tab-button" data-tab="sessionStorage">📦 SessionStorage</button>
+      <button class="tab-button" data-tab="all">📋 All</button>
+    </div>
+    
+    <div class="content">
+      <!-- Cookies Tab -->
+      <div class="tab-content active" id="cookiesContent">
+        <div class="toolbar">
+          <button class="btn btn-primary" id="refreshCookies">🔄 Refresh</button>
+          <button class="btn btn-secondary" id="copyCookies">📋 Copy</button>
+          <button class="btn btn-secondary" id="exportCookies">💾 Export</button>
+        </div>
+        <div class="search-box">
+          <input type="text" id="cookieSearch" class="search-input" placeholder="Search cookies...">
+        </div>
+        <div id="cookiesList" class="data-list"></div>
+      </div>
+      
+      <!-- LocalStorage Tab -->
+      <div class="tab-content" id="localStorageContent">
+        <div class="toolbar">
+          <button class="btn btn-primary" id="refreshLocalStorage">🔄 Refresh</button>
+          <button class="btn btn-secondary" id="copyLocalStorage">📋 Copy</button>
+          <button class="btn btn-secondary" id="exportLocalStorage">💾 Export</button>
+        </div>
+        <div class="search-box">
+          <input type="text" id="localSearch" class="search-input" placeholder="Search localStorage...">
+        </div>
+        <div id="localStorageList" class="data-list"></div>
+      </div>
+      
+      <!-- SessionStorage Tab -->
+      <div class="tab-content" id="sessionStorageContent">
+        <div class="toolbar">
+          <button class="btn btn-primary" id="refreshSessionStorage">🔄 Refresh</button>
+          <button class="btn btn-secondary" id="copySessionStorage">📋 Copy</button>
+          <button class="btn btn-secondary" id="exportSessionStorage">💾 Export</button>
+        </div>
+        <div class="search-box">
+          <input type="text" id="sessionSearch" class="search-input" placeholder="Search sessionStorage...">
+        </div>
+        <div id="sessionStorageList" class="data-list"></div>
+      </div>
+      
+      <!-- All Tab -->
+      <div class="tab-content" id="allContent">
+        <div class="toolbar">
+          <button class="btn btn-primary" id="refreshAll">🔄 Refresh All</button>
+          <button class="btn btn-secondary" id="copyAll">📋 Copy All</button>
+          <button class="btn btn-secondary" id="exportAll">💾 Export All</button>
+        </div>
+        <div id="allDataList" class="data-list"></div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <div id="status" class="status"></div>
+      <div class="footer-info">
+        <span id="pageInfo"></span>
+      </div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "extensionName": {
+    "message": "Get Cookies"
+  },
+  "extensionDescription": {
+    "message": "Wyodrębnij cookies, localStorage i sessionStorage z dowolnej strony"
+  },
+  "tabCookies": {
+    "message": "🍪 Cookies"
+  },
+  "tabLocalStorage": {
+    "message": "💾 LocalStorage"
+  },
+  "tabSessionStorage": {
+    "message": "📦 SessionStorage"
+  },
+  "tabAll": {
+    "message": "📋 Wszystko"
+  },
+  "refresh": {
+    "message": "Odśwież"
+  },
+  "copy": {
+    "message": "Kopiuj"
+  },
+  "export": {
+    "message": "Eksportuj"
+  },
+  "search": {
+    "message": "Szukaj..."
+  },
+  "noData": {
+    "message": "Nie znaleziono danych"
+  },
+  "loading": {
+    "message": "Ładowanie danych..."
+  },
+  "success": {
+    "message": "Sukces!"
+  },
+  "error": {
+    "message": "Błąd"
+  },
+  "copied": {
+    "message": "Skopiowano do schowka!"
+  },
+  "exported": {
+    "message": "Dane wyeksportowane!"
+  }
+}

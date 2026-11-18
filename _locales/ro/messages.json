@@ -1,0 +1,50 @@
+{
+  "extensionName": {
+    "message": "Get Cookies"
+  },
+  "extensionDescription": {
+    "message": "Extrage cookie-uri, localStorage și sessionStorage de pe orice site web"
+  },
+  "tabCookies": {
+    "message": "🍪 Cookies"
+  },
+  "tabLocalStorage": {
+    "message": "💾 LocalStorage"
+  },
+  "tabSessionStorage": {
+    "message": "📦 SessionStorage"
+  },
+  "tabAll": {
+    "message": "📋 Tot"
+  },
+  "refresh": {
+    "message": "Actualizare"
+  },
+  "copy": {
+    "message": "Copiere"
+  },
+  "export": {
+    "message": "Export"
+  },
+  "search": {
+    "message": "Căutare..."
+  },
+  "noData": {
+    "message": "Nu s-au găsit date"
+  },
+  "loading": {
+    "message": "Se încarcă datele..."
+  },
+  "success": {
+    "message": "Succes!"
+  },
+  "error": {
+    "message": "Eroare"
+  },
+  "copied": {
+    "message": "Copiat în clipboard!"
+  },
+  "exported": {
+    "message": "Date exportate!"
+  }
+}
